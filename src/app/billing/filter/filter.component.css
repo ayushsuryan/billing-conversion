@@ -1,0 +1,8 @@
+.filter-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    gap: 25px;
+}
+mat-expansion-panel{
+    margin: 10px 10px;
+}
