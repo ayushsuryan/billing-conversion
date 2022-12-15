@@ -8,19 +8,151 @@
   <div class="filter-container">
 
     <mat-form-field appearance="outline">
-      <mat-label>First name</mat-label>
+      <mat-label>Operation Type</mat-label>
       <input matInput>
     </mat-form-field>
 
     <mat-form-field appearance="outline">
-      <mat-label>Age</mat-label>
-      <input matInput type="number" min="1">
+      <mat-label>Branch</mat-label>
+      <input matInput type="text" min="1">
     </mat-form-field>
 
-    <mat-form-field appearance="outline">
-      <mat-label>Age</mat-label>
-      <input matInput type="number" min="1">
-    </mat-form-field>
+    <div class="input_split">
+      <mat-form-field style="margin: 0px 10px;" appearance="outline">
+        <mat-label>LCN Number</mat-label>
+        <mat-select>
+          <mat-option>
+            Starts With
+          </mat-option>
+          <mat-option>
+            Ends With
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field  style="margin: 0px 10px;" appearance="outline">
+        <mat-label>LCN Number</mat-label>
+        <input matInput type="text" min="1">
+      </mat-form-field>
+
+
+
+    </div>
+    <div class="input_split">
+      <mat-form-field style="margin: 0px 10px;" appearance="outline">
+        <mat-label>LCN Name</mat-label>
+        <mat-select>
+          <mat-option>
+            Starts With
+          </mat-option>
+          <mat-option>
+            Ends With
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field  style="margin: 0px 10px;" appearance="outline">
+        <mat-label>LCN Name</mat-label>
+        <input matInput type="text" min="1">
+      </mat-form-field>
+
+
+
+    </div>
+    <div class="input_split">
+      <mat-form-field style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Sec Account Number</mat-label>
+        <mat-select>
+          <mat-option>
+            Starts With
+          </mat-option>
+          <mat-option>
+            Ends With
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field  style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Sec Account Number</mat-label>
+        <input matInput type="text" min="1">
+      </mat-form-field>
+
+
+
+    </div>
+    <div class="input_split">
+      <mat-form-field style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Sec Account Name</mat-label>
+        <mat-select>
+          <mat-option>
+            Starts With
+          </mat-option>
+          <mat-option>
+            Ends With
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field  style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Sec Account Name</mat-label>
+        <input matInput type="text" min="1">
+      </mat-form-field>
+
+    </div>
+    <div class="input_split">
+      <mat-form-field  style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Sec Account Name</mat-label>
+        <input matInput type="date" min="1">
+      </mat-form-field>
+      <mat-form-field  style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Sec Account Name</mat-label>
+        <input matInput type="date" min="1">
+      </mat-form-field>
+    </div>
+
+    <div class="input_split">
+      <mat-form-field  style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Sec Account Name</mat-label>
+        <input matInput type="date" min="1">
+      </mat-form-field>
+      <mat-form-field style="margin: 0px 10px;" appearance="outline">
+        <mat-label>Global Custody</mat-label>
+        <mat-select>
+          <mat-option>
+            Starts With
+          </mat-option>
+          <mat-option>
+            Ends With
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+<div class="input_split">
+  <mat-form-field style="margin: 0px 10px;" appearance="outline">
+    <mat-label>Billing Mode</mat-label>
+    <mat-select>
+      <mat-option>
+        Starts With
+      </mat-option>
+      <mat-option>
+        Ends With
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field style="margin: 0px 10px;" appearance="outline">
+    <mat-label>Status</mat-label>
+    <mat-select>
+      <mat-option>
+        Starts With
+      </mat-option>
+      <mat-option>
+        Ends With
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
   </div>
+  <mat-action-row>
+    <button mat-button color="warn" >Reset</button>
+    <button mat-button color="primary">Submit</button>
+  </mat-action-row>
 
 </mat-expansion-panel>

@@ -4,6 +4,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import {MatSelectModule} from '@angular/material/select';
+
+
 
 @NgModule({
   imports: [
@@ -11,14 +14,16 @@ import {MatIconModule} from '@angular/material/icon';
     MatExpansionModule,
     MatInputModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule
 ],
   exports: [
     MatButtonModule,
     MatExpansionModule,
     MatInputModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule
 ]
 })
 export class MaterialModule { }
